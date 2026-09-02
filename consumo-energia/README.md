@@ -23,14 +23,14 @@ Através de um simples cálculo ele retornará o consumo médio mensal de energi
 ### No Windows
 
 - Abra o prompt de comando (CMD em Executar **cmd**)
-- Tendo o Python já instalado, digite **python app.py**
+- Tendo o Python já instalado, digite **python calculadora.py**
 
 
 ### No Linux
 
 - Abra o prompt de comando (Bash, Zsh, Ksh etc.)
-- Dê permissão de execução ao programa (**chmod +x app.py**)
-- Tendo o Python já instalado, digite na linha de comando **./app.py**
+- Dê permissão de execução ao programa (**chmod +x calculadora.py**)
+- Tendo o Python já instalado, digite na linha de comando **./calculadora.py**
 
 
 
