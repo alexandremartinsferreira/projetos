@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 """
    Programa para cálculo de consumo de energia 
    de um aparelho elétrico em kWh
@@ -14,37 +15,27 @@ def limpa_tela():
     else:
         os.system('clear')
 
-def main():
+# Apresentação
+limpa_tela()
 
-    TIT = "Calculadora de Consumo de Energia Elétrica"
-    QAP = "  Digite o nome do aparelho: "
-    QPO = "  Digite a potência do aparelho (W): "
-    QTE = "  Digite o tempo médio diário de uso (h): "
+print("=" * 50)
+print("        Calculadora de Consumo de Energia   ")
+print("=" * 50)
+print("\n")
 
-    # Apresentação
-    limpa_tela()
+# Entrada
+print("=" * 50)
+aparelho = input("  Digite o nome do aparelho: ")
+potencia = float(input("  Digite a potência do aparelho elétrico (W): "))
+tempo = float(input("  Digite o tempo médio diário de uso (h): "))
+print("=" * 50)
+print("\n")
 
-    print("=" * 50)
-    print(f"    {TIT}")
-    print("=" * 50)
-    print("\n")
+# Processamento
+consumo = (potencia * tempo * 30) / 1000.0
 
-    # Entrada
-    print("=" * 50)
-    aparelho = input(f"{QAP}")
-    potencia = float(input(f"{QPO}"))
-    tempo = float(input(f"{QTE}"))
-    print("=" * 50)
-    print("\n")
-
-    # Processamento
-    consumo = (potencia * tempo * 30) / 1000.0
-
-    # Saída
-    print("=" * 50)
-    print(f"  Aparelho: {aparelho}")
-    print(f"  Consumo estimado: {consumo:.2f} kWh/mês")
-    print("=" * 50)
-
-if __name__ == "__main__":
-    main()
+# Saída
+print("=" * 50)
+print(f"  Aparelho: {aparelho}")
+print(f"  Consumo estimado: {consumo:.2f} kWh/mês")
+print("=" * 50)
