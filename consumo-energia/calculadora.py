@@ -9,12 +9,16 @@ import os
 
 def limpa_tela():
 
+    """Usa comando para tela de acordo com o
+    sistema operacional em uso."""
     if os.name == 'nt':
         os.system('cls')
     else:
         os.system('clear')
 
-def calcula_consumo(potencia_w: float, tempo_h: float):
+def calcula_consumo(potencia_w: float, tempo_h: float) -> float:
+
+    """Fórmula para cálculo do consumo"""
     consumo_kwh = (potencia_w * tempo_h * 30) / 1000
     return consumo_kwh
 
