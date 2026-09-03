@@ -17,6 +17,10 @@ Através de um simples cálculo ele retornará o consumo médio mensal de energi
 
 - consumo mensal = potência vezes tempo vezes 30 dividido por 1000
 
+## Funcionamento
+
+- Não funciona com valores nulos ou negativos
+- Acusa erro se forem digitados valores não-numéricos
 
 ## Como Executar
 
