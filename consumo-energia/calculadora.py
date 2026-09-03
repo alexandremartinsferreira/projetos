@@ -37,6 +37,10 @@ def main():
     print("=" * 50)
     print("\n")
 
+    if potencia <= 0 or tempo <= 0:
+        print("[Erro] Potência e tempo devem ser maiores que zero.")
+        return
+
     # Processamento
     consumo = (potencia * tempo * 30) / 1000.0
 
