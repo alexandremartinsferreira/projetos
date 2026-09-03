@@ -14,6 +14,10 @@ def limpa_tela():
     else:
         os.system('clear')
 
+def calcula_consumo(potencia_w: float, tempo_h: float):
+    consumo_kwh = (potencia_w * tempo_h * 30) / 1000
+    return consumo_kwh
+
 def main():
 
     TIT = "Calculadora de Consumo de Energia Elétrica"
@@ -42,7 +46,7 @@ def main():
         return
 
     # Processamento
-    consumo = (potencia * tempo * 30) / 1000.0
+    consumo = calcula_consumo(potencia, tempo)
 
     # Saída
     print("=" * 50)
