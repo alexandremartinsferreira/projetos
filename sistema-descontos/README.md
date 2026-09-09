@@ -31,7 +31,7 @@ Os cálculos são feitos baseados no valor de compra e na taxa de desconto selec
 
 
 - O programa critica caso sejam digitados valor nulo ou negativo
-- Acusa erro se forem digitados valores não-numéricos
+- Não funciona se for digitado valor não-numérico
 
 
 ## Como Executar
