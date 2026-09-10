@@ -51,10 +51,10 @@ Os cálculos são feitos baseados no valor de compra e na taxa de desconto selec
 
 ## Testes 
 
-Há um arquivo de print de tela de com um teste automatizado usando shell script dentro do diretório dos arquivos.
-Na imagem da tela são apresentadas as respostas do programa, conforme os valores são aceitos pelo programa.
-Na automatização, os valores digitados só aparecem no resultado doa cálculos do programa.
-Ainda na tela, é apresentado o script de automação de testes, digitado diretamente em linha de comando.
+Há um arquivo de print de tela de com um teste automatizado, usando shell script, dentro do diretório dos arquivos.
+Na imagem da tela, são apresentadas as respostas do programa, conforme os valores são aceitos pelo mesmo.
+Na automatização, os valores digitados só aparecem no resultado doa cálculos.
+Ainda na tela, é apresentado o script de automação de testes, digitado diretamente na linha de comando.
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
