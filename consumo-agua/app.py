@@ -1,4 +1,4 @@
-#!/uar/bin/env python3
+#!/usr/bin/env python3
 
 """
     Progeama para mensagens ao consumidor conforme
