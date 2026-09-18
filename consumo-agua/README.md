@@ -50,7 +50,7 @@ O programa não usa fórmulas. Apenas avaliações sobre o perfil do imóvel e q
 ## Testes 
 
 Há um arquivo de print de tela dentro do diretório dos arquivos.
-Na imagem da tela, são apresentadas as respostas do programa, conforme os valores são digitados nas várias execuções do programa.
+Na imagem da tela, são apresentadas as respostas do programa, conforme os valores são digitados nas várias execuções da aplicação.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
