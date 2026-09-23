@@ -17,7 +17,9 @@ excelente, bom, ruim = 0, 0, 0
     através de lista criada pelo comando range().
 """
 
-for i in range(1, 4):
+print("Pesquisa de Opinião - TudoWeb\n")
+
+for i in range(1, 11):
     """
         Recebe nome e idade com o indicador de índice
         para mostrar quantas pwssoas já foram
