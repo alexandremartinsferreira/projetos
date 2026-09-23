@@ -19,7 +19,7 @@ excelente, bom, ruim = 0, 0, 0
 
 print("Pesquisa de Opinião - TudoWeb\n")
 
-for i in range(1, 11):
+for i in range(1, 51): # Índices de 1 a 50
     """
         Recebe nome e idade com o indicador de índice
         para mostrar quantas pwssoas já foram
